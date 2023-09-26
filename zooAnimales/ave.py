@@ -55,7 +55,7 @@ class Ave (Animal):
 
         self._colorPlumas = x
     
-    def getColorEscamas(self):
+    def getColorPlumas(self):
 
         return  self._colorPlumas
     

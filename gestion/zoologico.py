@@ -15,3 +15,19 @@ class Zoologico:
     def cantidadAnimales(self):
 
         return len(Zoologico._zonas)
+    
+    def setNombre(self, listado):
+
+        self._nombre = listado
+    
+    def getNombre(self):
+
+        return  self._nombre
+    
+    def setUbicacion(self, x):
+
+        self._ubicacion = x
+    
+    def getUbicacion(self):
+
+        return  self._ubicacion
