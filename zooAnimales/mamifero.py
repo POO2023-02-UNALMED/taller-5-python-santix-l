@@ -51,7 +51,7 @@ class Mamifero (Animal):
 
         self._pelaje = x
     
-    def getPelaje(self):
+    def isPelaje(self):
 
         return  self._pelaje
     
