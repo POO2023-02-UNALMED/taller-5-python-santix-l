@@ -14,7 +14,15 @@ class Zoologico:
 
     def cantidadTotalAnimales(self):
 
-        return len(Zoologico._zonas)
+        x  = 0
+
+        for i in Zoologico._zonas:
+
+            x += i.cantidadAnimales()
+
+        return x
+
+
     
     def setNombre(self, listado):
 
