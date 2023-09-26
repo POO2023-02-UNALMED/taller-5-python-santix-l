@@ -1,20 +1,21 @@
 
 class Zona:
 
-    _animales = []
+    
 
     def __init__ (self, nombre, zoo = None):
 
         self._nombre = nombre
         self._zoo = zoo
+        self._animales = []
 
     def agregarAnimales(self, animal):
 
-        Zona._animales.append(animal)
+        self._animales.append(animal)
 
     def cantidadAnimales(self):
 
-        return len(Zona._animales)
+        return len(self._animales)
     
     def setNombre(self, listado):
 

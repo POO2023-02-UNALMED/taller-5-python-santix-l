@@ -22,7 +22,6 @@ class Zoologico:
 
         return x
 
-
     
     def setNombre(self, listado):
 
