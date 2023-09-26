@@ -12,7 +12,7 @@ class Zoologico:
 
         Zoologico._zonas.append(zona)
 
-    def cantidadAnimales(self):
+    def cantidadTotalAnimales(self):
 
         return len(Zoologico._zonas)
     
@@ -31,3 +31,11 @@ class Zoologico:
     def getUbicacion(self):
 
         return  self._ubicacion
+    
+    def setZona(self, x):
+
+        self._zonas= x
+    
+    def getZona(self):
+
+        return  self._zonas
